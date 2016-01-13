@@ -1,6 +1,6 @@
-package ch.alvisoft.statemachine;
+package ch.santosalves.ssme;
 
-import ch.alvisoft.statemachine.states.IState;
+import ch.santosalves.ssme.states.IState;
 
 public interface StateChangedListener {
 	public void onStateChanged(IState previous, IState current, Input<?> input);

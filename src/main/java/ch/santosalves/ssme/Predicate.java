@@ -1,4 +1,4 @@
-package ch.alvisoft.statemachine;
+package ch.santosalves.ssme;
 
 public abstract class Predicate {
 	@SuppressWarnings("rawtypes")

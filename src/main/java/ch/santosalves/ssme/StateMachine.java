@@ -1,11 +1,11 @@
-package ch.alvisoft.statemachine;
+package ch.santosalves.ssme;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ch.alvisoft.statemachine.states.GenericState;
-import ch.alvisoft.statemachine.states.IState;
-import ch.alvisoft.statemachine.states.Start;
+import ch.santosalves.ssme.states.GenericState;
+import ch.santosalves.ssme.states.IState;
+import ch.santosalves.ssme.states.Start;
 
 public class StateMachine {
 	private List<Transition> transitions = new ArrayList<Transition>();

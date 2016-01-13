@@ -1,4 +1,4 @@
-package ch.alvisoft.statemachine.states;
+package ch.santosalves.ssme.states;
 
 public class Timeout extends GenericState {
 	public Timeout() {

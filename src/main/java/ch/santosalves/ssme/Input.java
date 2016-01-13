@@ -1,5 +1,9 @@
-package ch.alvisoft.statemachine;
-
+package ch.santosalves.ssme;
+/**
+ * This
+ * @author Sergio Alves
+ * @param <T> 
+ */
 public class Input <T> {
 	private T input;
 	

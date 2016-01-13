@@ -1,4 +1,4 @@
-package ch.alvisoft.statemachine.states;
+package ch.santosalves.ssme.states;
 
 public class Error extends GenericState {
 	public Error() {

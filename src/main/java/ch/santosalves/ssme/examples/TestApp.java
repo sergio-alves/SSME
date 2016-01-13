@@ -1,10 +1,14 @@
-package ch.alvisoft.statemachine;
+package ch.santosalves.ssme.examples;
 
-import static ch.alvisoft.statemachine.Predicate.Equals;
-import ch.alvisoft.statemachine.states.End;
-import ch.alvisoft.statemachine.states.GenericState;
-import ch.alvisoft.statemachine.states.IState;
-import ch.alvisoft.statemachine.states.Start;
+import ch.santosalves.ssme.Input;
+import ch.santosalves.ssme.StateChangedListener;
+import ch.santosalves.ssme.StateMachine;
+import ch.santosalves.ssme.Transition;
+import static ch.santosalves.ssme.Predicate.Equals;
+import ch.santosalves.ssme.states.End;
+import ch.santosalves.ssme.states.GenericState;
+import ch.santosalves.ssme.states.IState;
+import ch.santosalves.ssme.states.Start;
 
 public class TestApp {
 	public static void main(String[] args) {
